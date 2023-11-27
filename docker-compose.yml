@@ -43,8 +43,8 @@ services:
       - mysql
     restart: always
     ports:
-      - '8282:8282'
-      - '8443:8443'
+      - '80:8080'
+      - '443:8443'
     environment:
       - PHP_TZ=America/Sao_Paulo
     env_file:
